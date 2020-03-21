@@ -1,0 +1,6 @@
+framework module RCSegmentView {
+  umbrella header "RCSegmentView-umbrella.h"
+
+  export *
+  module * { export * }
+}

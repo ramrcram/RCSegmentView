@@ -1,0 +1,16 @@
+PODS:
+  - RCSegmentView (0.1.0)
+
+DEPENDENCIES:
+  - RCSegmentView (from `../`)
+
+EXTERNAL SOURCES:
+  RCSegmentView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RCSegmentView: 1b18e3126760a19072c9fc7ad652033210b29810
+
+PODFILE CHECKSUM: a0bd0d172e8473f1749d5847d344f75ad4d2338a
+
+COCOAPODS: 1.9.1

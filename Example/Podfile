@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RCSegmentView_Tests' do
+  pod 'RCSegmentView', :path => '../'
+  
+  
+end

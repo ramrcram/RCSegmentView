@@ -1,0 +1,22 @@
+{
+  "name": "RCSegmentView",
+  "version": "0.1.0",
+  "summary": "A short description of RCSegmentView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ramrcram/RCSegmentView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ramrcram": "ramesh@and-charge.me"
+  },
+  "source": {
+    "git": "https://github.com/ramrcram/RCSegmentView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RCSegmentView/Classes/**/*"
+}
