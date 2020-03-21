@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		197EABBBAAF221E50D14317DD86E1B9F /* Pods-RCSegmentView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C588A2A2A0A4CE558BA20374C4D1556 /* Pods-RCSegmentView_Tests-dummy.m */; };
 		355A3FA92A76786344A4BB8B9280F54E /* RCSegmentView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 592D0B66220C5A0FE6BA2042153C759F /* RCSegmentView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		588C08F624260AE700F4704C /* RCSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588C08F324260AE700F4704C /* RCSegmentView.swift */; };
+		588C08F724260AE700F4704C /* RCSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588C08F424260AE700F4704C /* RCSegmentedControl.swift */; };
+		588C08F824260AE700F4704C /* RCSegmentPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588C08F524260AE700F4704C /* RCSegmentPageViewController.swift */; };
 		7354E77743F6D3EBBD92706EBA18C27C /* Pods-RCSegmentView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA68F668DE9E5814ED530D51FF9204E /* Pods-RCSegmentView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B462CECEFEB15AE77923F13F3A126C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D509F9CD0728E8EA134C6CADA8B87868 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64862B5A992A72AD50AADF8FFE15880C /* ReplaceMe.swift */; };
 		F01235CBB1AF71BDB36C3A68A92CE766 /* RCSegmentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F7962ADBEC638FC8E456D53EB3C356 /* RCSegmentView-dummy.m */; };
 		F7D7ADDD2D417607D8EC1D0C4055F853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -29,25 +31,27 @@
 /* Begin PBXFileReference section */
 		0492104AA948E3FEF614166C662E7F0F /* Pods-RCSegmentView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCSegmentView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		069E89C068833D4AD8D64AB615E20291 /* RCSegmentView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCSegmentView-prefix.pch"; sourceTree = "<group>"; };
-		0DB04CDB9FC96AE74729E8350C03FB4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0DB04CDB9FC96AE74729E8350C03FB4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0F129E04B359AA62D5621C4E734222EF /* RCSegmentView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RCSegmentView.debug.xcconfig; sourceTree = "<group>"; };
 		1C2985AD648871115D71AF358E469B65 /* RCSegmentView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RCSegmentView-Info.plist"; sourceTree = "<group>"; };
 		1C588A2A2A0A4CE558BA20374C4D1556 /* Pods-RCSegmentView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCSegmentView_Tests-dummy.m"; sourceTree = "<group>"; };
-		2645D09F266473B8C85F604C504D4EBB /* RCSegmentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RCSegmentView.framework; path = RCSegmentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2645D09F266473B8C85F604C504D4EBB /* RCSegmentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RCSegmentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4DA68F668DE9E5814ED530D51FF9204E /* Pods-RCSegmentView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCSegmentView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		569B06BEFCBAE76FADEEB27AF72D37D7 /* RCSegmentView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RCSegmentView.modulemap; sourceTree = "<group>"; };
+		588C08F324260AE700F4704C /* RCSegmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RCSegmentView.swift; path = RCSegmentView/Classes/RCSegmentView.swift; sourceTree = "<group>"; };
+		588C08F424260AE700F4704C /* RCSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RCSegmentedControl.swift; path = RCSegmentView/Classes/RCSegmentedControl.swift; sourceTree = "<group>"; };
+		588C08F524260AE700F4704C /* RCSegmentPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RCSegmentPageViewController.swift; path = RCSegmentView/Classes/RCSegmentPageViewController.swift; sourceTree = "<group>"; };
 		592D0B66220C5A0FE6BA2042153C759F /* RCSegmentView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCSegmentView-umbrella.h"; sourceTree = "<group>"; };
-		64862B5A992A72AD50AADF8FFE15880C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RCSegmentView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AE03A2B2FC4DE579E1F701F8C1B66DE9 /* Pods-RCSegmentView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RCSegmentView_Tests.modulemap"; sourceTree = "<group>"; };
-		BF7A8FF5470387229CD50BF8B7CAD8F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CAE4282C020CB4AD73206769C21D771F /* RCSegmentView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RCSegmentView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF7A8FF5470387229CD50BF8B7CAD8F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CAE4282C020CB4AD73206769C21D771F /* RCSegmentView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RCSegmentView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CED8D68E67D62C0D89AEDC397174FE12 /* Pods-RCSegmentView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCSegmentView_Tests-Info.plist"; sourceTree = "<group>"; };
 		CF1542D5C1FCFDCF9A65F8BB3384A9CB /* Pods-RCSegmentView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCSegmentView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E1B968F2F2807CB063C0DF41CB5D131E /* RCSegmentView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RCSegmentView.release.xcconfig; sourceTree = "<group>"; };
 		E24B53CB424B73C82739F8E894456598 /* Pods-RCSegmentView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCSegmentView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E478A186F2C45F280539ECD61E48D925 /* Pods_RCSegmentView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RCSegmentView_Tests.framework; path = "Pods-RCSegmentView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E478A186F2C45F280539ECD61E48D925 /* Pods_RCSegmentView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCSegmentView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F7962ADBEC638FC8E456D53EB3C356 /* RCSegmentView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCSegmentView-dummy.m"; sourceTree = "<group>"; };
 		F01374883BAE3D9FC4D711A1D3BD3632 /* Pods-RCSegmentView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCSegmentView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FFEDA1B75C186B7FD3323CB84E5E5215 /* Pods-RCSegmentView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCSegmentView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +129,9 @@
 		875B3A235281F7A80EF6E3A92640DBB9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				588C08F424260AE700F4704C /* RCSegmentedControl.swift */,
+				588C08F524260AE700F4704C /* RCSegmentPageViewController.swift */,
+				588C08F324260AE700F4704C /* RCSegmentView.swift */,
 				BF7A8FF5470387229CD50BF8B7CAD8F2 /* LICENSE */,
 				CAE4282C020CB4AD73206769C21D771F /* RCSegmentView.podspec */,
 				0DB04CDB9FC96AE74729E8350C03FB4D /* README.md */,
@@ -162,7 +169,6 @@
 		D483C1B45B739DFBD3861E68EECEA183 /* RCSegmentView */ = {
 			isa = PBXGroup;
 			children = (
-				64862B5A992A72AD50AADF8FFE15880C /* ReplaceMe.swift */,
 				875B3A235281F7A80EF6E3A92640DBB9 /* Pod */,
 				35BB1C296CB87D528C7E26975D827944 /* Support Files */,
 			);
@@ -245,6 +251,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					40335DC9C59F0F369578F762876FC171 = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -287,7 +298,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588C08F824260AE700F4704C /* RCSegmentPageViewController.swift in Sources */,
 				197EABBBAAF221E50D14317DD86E1B9F /* Pods-RCSegmentView_Tests-dummy.m in Sources */,
+				588C08F724260AE700F4704C /* RCSegmentedControl.swift in Sources */,
+				588C08F624260AE700F4704C /* RCSegmentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +310,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F01235CBB1AF71BDB36C3A68A92CE766 /* RCSegmentView-dummy.m in Sources */,
-				D509F9CD0728E8EA134C6CADA8B87868 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +330,7 @@
 			baseConfigurationReference = FFEDA1B75C186B7FD3323CB84E5E5215 /* Pods-RCSegmentView_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -339,6 +353,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -462,8 +477,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -538,6 +552,7 @@
 			baseConfigurationReference = CF1542D5C1FCFDCF9A65F8BB3384A9CB /* Pods-RCSegmentView_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -560,6 +575,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
